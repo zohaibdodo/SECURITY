@@ -5,3 +5,23 @@
 3) Gaining access / Exploitation
 4) Maintaining Access
 5) Covering tracks
+
+
+What is information gathering?
+
+Active information gathering
+Passive information gathering
+
+Active information gathering:
+IP Address and NSlookup
+ipinfo.info To check IP address and domain name
+whois command #whois facebook.com
+whatweb maju.edu.pk -v
+
+whatweb 192.168.1.1-192.168.1.255 --aggression 3 -v
+
+To save the output in a file:
+
+whatweb 192.168.1.1-192.168.1.255 --aggression 3 -v --log-verbose=results
+
+Gathering emails using theHarvester & Hunter.io
