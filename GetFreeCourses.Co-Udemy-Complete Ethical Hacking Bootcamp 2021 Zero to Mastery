@@ -1,0 +1,56 @@
+01) Introduction:
+
+**Course Outline:**
+1) Reconnaissance/Footprinting/Information Gathering
+2) Scanning
+3) Vulnerability Analysis
+4) Exploitation & Gaining Access
+5) Post Exploitation
+
+**What is Ethical Hacking:**
+
+---------------------------------------------------------------------------------------
+02) Setting up our Hacking lab:
+
+**What is virtual machine:**
+**Why Linux**
+**Downloading VIrtual Box & Kali Linux**
+**Creating our first VM**
+**Installing Kali Linux OS**
+**Update 1 - New & Old version of Kali Linux**
+**Full mode Screen mode & Network settings**
+**5 Stages of Penetration Testing**
+
+1) Information gathering /Reconnaissance
+2) Scanning
+3) Gaining access / Exploitation
+4) Maintaining Access
+5) Covering tracks
+
+03) Linux Operaing System:
+
+**Navigating through LInux System**
+**Creating files & Managing directories**
+**Network command & Sudo privileges in Kali**
+
+04) Reconnaissance & Information Gathering:
+
+**What is information gathering?**
+
+Active information gathering 
+Passive information gathering
+
+Active information gathering:
+IP Address and NSlookup
+ipinfo.info To check IP address and domain name
+whois command #whois facebook.com
+whatweb maju.edu.pk -v
+
+whatweb 192.168.1.1-192.168.1.255 --aggression 3 -v
+
+To save the output in a file:
+
+whatweb 192.168.1.1-192.168.1.255 --aggression 3 -v --log-verbose=results
+
+Gathering emails using theHarvester & Hunter.io
+
