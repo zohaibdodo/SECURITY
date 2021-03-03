@@ -56,3 +56,12 @@ set:webattack> IP address for the POST back in Harvester/Tabnabbing [192.168.32.
 [-] SET supports both HTTP and HTTPS
 [-] Example: http://www.thisisafakesite.com
 set:webattack> Enter the url to clone:www.twitter.com
+
+Open ‘setoolkit’
+Choose 1) Social Engineering Attacks
+Choose 2) Website Attack Vectors
+Choose 3) Credential Harvester Attack Method
+Choose 1) Web Templates
+Input the IP address
+Choose Google
+Happy hunting ^_^
