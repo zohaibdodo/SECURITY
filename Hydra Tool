@@ -1,0 +1,36 @@
+Hydra is a pre-installed tool in Kali Linux used to brute-force username and password to different services such as ftp, ssh, telnet, MS-SQL etc. 
+
+hydra -h
+
+Click Here for Stress Test Tools – Kali Linux 
+
+ To brute-force ssh username and password
+
+Create a username and password list to enumerate a target by using a hydra automation tool. You can access the wordlist in a directory by using the below command.
+
+cd /usr/share/wordlists
+
+-l: input login
+
+-L: list of username
+
+-p: single password
+
+-P: list of passwords
+
+#hydra <Target_IP> ssh -l <username> -P <password_file> -s 22 -vV
+#hydra <Target_IP> ssh -l <username> -p <password> -s 22 -vV
+ To brute-force FTP username and password
+
+#hydra -L <username_file> -P <password_file> ftp://<Target_IP>
+#hydra -l <username> -p <password> ftp://<Target_IP>
+
+To brute-force telnet username and password
+
+#hydra -l <username> -p <password> telnet://<Target_IP>
+
+Click here for Hash Identifier Usage in Kali Linux
+
+Mitigation to avoid brute-force attack of username and password 
+
+Implementing account lockout, captcha implementation, complex password, two-factor authentication, hardware-based token authentication, etc. are some of the techniques of avoiding brute-force attack on the target.
