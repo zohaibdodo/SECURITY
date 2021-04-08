@@ -27,11 +27,14 @@
 4) Maintaining Access
 5) Covering tracks
 
+--------------------------------------------------------------------------------------
 03) Linux Operaing System:
 
-**Navigating through LInux System**
+**Navigating through Linux System**
 **Creating files & Managing directories**
 **Network command & Sudo privileges in Kali**
+
+----------------------------------------------------------------------------------------
 
 04) Reconnaissance & Information Gathering:
 
@@ -41,12 +44,14 @@ Active information gathering
 Passive information gathering
 
 Active information gathering:
-IP Address and NSlookup
+Ping IP Address and NSlookup
 ipinfo.info To check IP address and domain name
 whois command #whois facebook.com
 whatweb maju.edu.pk -v
 
 whatweb 192.168.1.1-192.168.1.255 --aggression 3 -v
+
+Default level is stealthy i.e. level 1.
 
 To save the output in a file:
 
@@ -54,3 +59,24 @@ whatweb 192.168.1.1-192.168.1.255 --aggression 3 -v --log-verbose=results
 
 Gathering emails using theHarvester & Hunter.io
 
+-d for domain
+-b source
+-l limit
+
+#theHarvester -d mas.bg.ac.rs -b all
+#theHarvester -d mas.bg.ac.rs -b google
+
+www.hunter.io for information gathering
+
+How to download Tools Online:
+GITHUB
+
+REDHAWK
+git clone 
+
+Sherlock
+git clone http://github.com/sherlock-project/sherlock
+cd sherlock
+python3 sherlock.py
+pip3 install torrequest
+ 
