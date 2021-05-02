@@ -36,6 +36,17 @@ Virus: It grows itself or it effects only one computer that is running on one sy
 Worm:  It infects all the computers running on the same network.
 Ransomeware: It encrypts all the files and folders and user have to pay to recover them.
 
+CRYPTOGRAPHY:
 
+Cryptography: Is art of of converting the plain text into unintelligible format(cipher text).
+              On the receiver side that cipher text is converted into plain text.
+              Cryptography mainly aims at privacy and integrity.
+              Cryptography is not latest technique, its from thousands of years ago but they uses some symbols to denote plain text message.
 
+PASSIVE RECONAISSANCE:
 
+Passive Reconaissance: Just collecting information passively without interacting directly.
+
+HAVE I BEEN PWNED:
+
+https://haveibeenpwned.com/ to check data breaches 
