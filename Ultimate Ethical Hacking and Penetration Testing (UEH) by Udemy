@@ -1,0 +1,41 @@
+Types of Hacker:
+
+White   Focus on security and finding vulnerabilities of an organization.
+Black   Focus on finding vulnerabilities and exploit them and tend to do damage to an organization.
+Grey    Grey hackers works sometime like White and Black hackers according to situation.
+
+Vulnerability, Exploits, Payloads:
+
+Vulnerability: The flaw or misconfiguration of a software.
+Exploits:      The way hacker takes advantage of vulnerability.
+Payload:       After exploit the system, hacker gets access to the terminal or command line of that system and control it.
+
+Red Blue Teaming:
+
+Red Team: They mainly focus on offensive pentesting and try to hack into as many systems as possible with the permission of organization.
+Blue Team: They focuses on improving security by patching vulnerabilities, updating software and make sure that security mechanisms were implemented and fuctioning correctly.
+
+Privileges and Escalation:
+
+Privileges: Means certain permission of user on certain files and folder.
+Escalating: Those permission to root or Administrator user.
+
+Denial of Service:
+
+DoS: Sending huge number of packets from one system to anothe computer is called DoS.
+DDoS: Distributed Denial of Service if the attack is perform by many computers.
+
+Buffer Overflow Attack:
+
+Buffer Overflow Attack: Whenever the application doesnot hangle input data correctly, data may overflow into memory regions like stack and application gets crashed.
+                        Attackers can control instruction pointer and runs their own code.
+
+Virus, Worm, Ransomeware:
+
+Virus: It grows itself or it effects only one computer that is running on one system.
+Worm:  It infects all the computers running on the same network.
+Ransomeware: It encrypts all the files and folders and user have to pay to recover them.
+
+
+
+
