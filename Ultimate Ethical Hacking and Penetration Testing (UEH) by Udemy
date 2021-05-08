@@ -149,5 +149,13 @@ DIG:
 
 DNS RECON & DNS 
 
+DNSRECON:
 #dnsrecon -h
 #dnsrecon -d google.com
+
+DNSENUM:
+#dnsenum google.com
+
+AMASS:
+
+#
